@@ -33,4 +33,4 @@ addChild(sprite)
 
 ## License
 
-CIColorRGBA is available under the MIT license. See the LICENSE file for more info.
+SKTextureGradient is available under the MIT license. See the LICENSE file for more info.
