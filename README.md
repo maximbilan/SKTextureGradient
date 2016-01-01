@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
 [![Platform](https://img.shields.io/cocoapods/p/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
 
-Simple extension for SKTexture for creating gradient effect in <i>Sprite Kit</i>.
+Simple extension for <i>SKTexture</i> for creating gradient effect in <i>Sprite Kit</i>.
 
 # Installation
 
@@ -23,6 +23,9 @@ pod 'SKTextureGradient'
 <pre>
 let color = CIColor(rgba: '#134E5E')
 </pre>
+
+# Example
+
 
 ## License
 
