@@ -19,9 +19,13 @@ pod 'SKTextureGradient'
 </pre>
 
 # How to use
-
 <pre>
-let color = CIColor(rgba: '#134E5E')
+let texture = SKTexture(size: CGSizeMake(200, 200), color1: topColor, color2: bottomColor, direction: GradientDirection.Up)
+texture.filteringMode = .Nearest
+let sprite = SKSpriteNode(texture: texture)
+sprite.position = CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(frame))
+sprite.size = self.frame.size
+addChild(sprite)
 </pre>
 
 # Example
