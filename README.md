@@ -33,7 +33,7 @@ addChild(sprite)
 
 # Example
 
-
+![alt tag](https://raw.github.com/maximbilan/SKTextureGradient/master/example.png)
 
 ## License
 
