@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
 [![Platform](https://img.shields.io/cocoapods/p/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
 
-Simple extension for <i>SKTexture</i> for creating gradient effect in <i>SpriteKit</i>.
+Simple <i>SKTexture</i> extension for creating gradient effect in <i>SpriteKit</i>.
 
 # Installation
 
