@@ -13,7 +13,7 @@ Simple <i><a href="https://developer.apple.com/library/prerelease/ios/documentat
 Copy SKTextureGradient.swift to your project.
 </pre>
 
-<b>Cocoapods:</b>
+<b>CocoaPods:</b>
 <pre>
 pod 'SKTextureGradient'
 </pre>
