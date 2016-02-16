@@ -8,14 +8,14 @@ Simple <i><a href="https://developer.apple.com/library/prerelease/ios/documentat
 
 # Installation
 
-<b>Manual:</b>
-<pre>
-Copy SKTextureGradient.swift to your project.
-</pre>
-
 <b>CocoaPods:</b>
 <pre>
 pod 'SKTextureGradient'
+</pre>
+
+<b>Manual:</b>
+<pre>
+Copy SKTextureGradient.swift to your project.
 </pre>
 
 # How to use
