@@ -15,7 +15,7 @@ pod 'SKTextureGradient'
 
 <b>Manual:</b>
 <pre>
-Copy SKTextureGradient.swift to your project.
+Copy <i>SKTextureGradient.swift</i> to your project.
 </pre>
 
 # How to use
