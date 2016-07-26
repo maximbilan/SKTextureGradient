@@ -18,7 +18,7 @@ pod 'SKTextureGradient'
 Copy <i>SKTextureGradient.swift</i> to your project.
 </pre>
 
-# How to use
+# Using
 <pre>
 let topColor = CIColor(rgba: "#71B280")
 let bottomColor = CIColor(rgba: "#134E5E")
