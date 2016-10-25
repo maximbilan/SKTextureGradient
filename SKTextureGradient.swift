@@ -47,7 +47,7 @@ public extension SKTexture {
 		filter!.setValue(color1, forKey: "inputColor0")
 		filter!.setValue(color2, forKey: "inputColor1")
 		
-		let image = context.createCGImage(filter!.outputImage!, fromRect: CGRect(x: 0, y: 0, width: size.width, height: size.height))
-		self.init(CGImage: image!)
+		let image = context.createCGImage(filter!.outputImage!, from: CGRect(x: 0, y: 0, width: size.width, height: size.height))
+		self.init(cgImage: image!)
 	}
 }
