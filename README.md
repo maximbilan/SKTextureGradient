@@ -10,7 +10,17 @@ Simple <i><a href="https://developer.apple.com/library/prerelease/ios/documentat
 
 <b>CocoaPods:</b>
 <pre>
+For Swift 2.2:
 pod 'SKTextureGradient'
+
+Swift 2.2:
+pod 'SKTextureGradient', '~> 0.1'
+
+Swift 2.3:
+pod 'SKTextureGradient', '~> 2.3'
+
+Swift 3.0:
+pod 'SKTextureGradient', '~> 3.0'
 </pre>
 
 <b>Manual:</b>
