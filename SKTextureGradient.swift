@@ -10,15 +10,15 @@
 import SpriteKit
 
 public enum GradientDirection {
-	case Up
-	case Left
-	case UpLeft
-	case UpRight
+	case up
+	case left
+	case upLeft
+	case upRight
 }
 
 public extension SKTexture {
 	
-	convenience init(size: CGSize, color1: CIColor, color2: CIColor, direction: GradientDirection = .Up) {
+	convenience init(size: CGSize, color1: CIColor, color2: CIColor, direction: GradientDirection = .up) {
 		
 		let context = CIContext(options: nil)
 		let filter = CIFilter(name: "CILinearGradient")
@@ -28,16 +28,16 @@ public extension SKTexture {
 		filter!.setDefaults()
 		
 		switch direction {
-			case .Up:
+			case .up:
 				startVector = CIVector(x: size.width * 0.5, y: 0)
 				endVector = CIVector(x: size.width * 0.5, y: size.height)
-			case .Left:
+			case .left:
 				startVector = CIVector(x: size.width, y: size.height * 0.5)
 				endVector = CIVector(x: 0, y: size.height * 0.5)
-			case .UpLeft:
+			case .upLeft:
 				startVector = CIVector(x: size.width, y: 0)
 				endVector = CIVector(x: 0, y: size.height)
-			case .UpRight:
+			case .upRight:
 				startVector = CIVector(x: 0, y: 0)
 				endVector = CIVector(x: size.width, y: size.height)
 		}
@@ -50,4 +50,5 @@ public extension SKTexture {
 		let image = context.createCGImage(filter!.outputImage!, from: CGRect(x: 0, y: 0, width: size.width, height: size.height))
 		self.init(cgImage: image!)
 	}
+	
 }
