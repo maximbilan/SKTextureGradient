@@ -27,7 +27,7 @@ Copy <i>SKTextureGradient.swift</i> to your project.
 let topColor = CIColor(rgba: "#71B280")
 let bottomColor = CIColor(rgba: "#134E5E")
 
-let texture = SKTexture(size: CGSizeMake(200, 200), color1: topColor, color2: bottomColor, direction: GradientDirection.Up)
+let texture = SKTexture(size: CGSizeMake(200, 200), color1: topColor, color2: bottomColor, direction: GradientDirection.up)
 texture.filteringMode = .Nearest
 
 let sprite = SKSpriteNode(texture: texture)
