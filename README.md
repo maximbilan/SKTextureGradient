@@ -11,7 +11,7 @@ Simple <i><a href="https://developer.apple.com/library/prerelease/ios/documentat
 <b>CocoaPods:</b>
 <pre>
 <b>Swift 3.0</b>:
-pod 'SKTextureGradient', '~> 3.0'
+pod 'SKTextureGradient', '3.0'
 
 <b>Swift 4.0</b>:
 pod 'SKTextureGradient', '~> 4.0'
