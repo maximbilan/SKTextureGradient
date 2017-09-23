@@ -3,6 +3,8 @@
 [![Version](https://img.shields.io/cocoapods/v/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
 [![License](https://img.shields.io/cocoapods/l/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
 [![Platform](https://img.shields.io/cocoapods/p/SKTextureGradient.svg?style=flat)](http://cocoadocs.org/docsets/SKTextureGradient)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/SKTextureGradient.svg)](https://cocoapods.org/pods/SKTextureGradient)
+[![CocoaPods](https://img.shields.io/cocoapods/dm/SKTextureGradient.svg)](https://cocoapods.org/pods/SKTextureGradient)
 
 Simple <i><a href="https://developer.apple.com/library/prerelease/ios/documentation/SpriteKit/Reference/SKTexture_Ref/index.html">SKTexture</a></i> extension for creating gradient effect in <i><a href="https://developer.apple.com/spritekit/">SpriteKit</a></i>.
 
