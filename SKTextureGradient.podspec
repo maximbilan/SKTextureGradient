@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "SKTextureGradient"
-s.version      = "4.0"
+s.version      = "4.0.1"
 s.summary      = "SKTexture extension"
 s.description  = "Sprite Kit SKTexture Gradient"
 s.homepage     = "https://github.com/maximbilan/SKTextureGradient"
